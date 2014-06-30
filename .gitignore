@@ -1,0 +1,10 @@
+*.dll
+*.pdb
+packages/**/*.*
+.nuget/[Nn]uget.exe
+*.user
+*.suo
+**/bin/**/*.xml
+**/bin/**/*.dll
+**/bin/**/*.pdb
+**/obj
