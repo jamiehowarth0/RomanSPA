@@ -4,10 +4,6 @@
              ($scope, $route, $routeParams) {
 
                 // Retrieve our model using the modelfactory for our current URL path
-                $.ajax($scope.templateUrl, {
-                    beforeSend: function (xhr) { xhr.setRequestHeader('X-RomanModelRequest', 'true'); },
-                    success: applyModel
-                });
-
-                function applyModel(data) { $scope.model = data; }
+                $.ajax($scope.templateUrl, { beforeSend: function (xhr) { xhr.setRequestHeader('X-RomanModelRequest', 'true'); } })
+                 .done(function (data) { $scope.model = data; });
             }]);
