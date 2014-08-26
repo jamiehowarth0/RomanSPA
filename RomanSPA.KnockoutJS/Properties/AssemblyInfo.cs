@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("RomanSPA.KnockoutJS")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("RomanSPA KnockoutJS implementation. To get started buildng a hybrid ASP.NET MVC single-page application using KnockoutJS and DurandalJS, reference this library.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Code Gecko Ltd.")]
 [assembly: AssemblyProduct("RomanSPA.KnockoutJS")]
-[assembly: AssemblyCopyright("Copyright ©  2014")]
+[assembly: AssemblyCopyright("Copyright © Benjamin Howarth, Code Gecko Ltd. 2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanSPA.KnockoutJS", "RomanSPA.KnockoutJS\RomanSPA.KnockoutJS.csproj", "{65FDE9DB-4DD4-4854-9E2C-8AF5BFE4CBCE}"
 EndProject
@@ -12,6 +12,12 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demos", "Demos", "{E54FE084-91FF-42DB-B875-10E881A2B0DE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanSPA.Demo.AngularJS", "Demos\RomanSPA.Demo.AngularJS\RomanSPA.Demo.AngularJS.csproj", "{81ADA21E-BF2C-4C78-AAE6-F30DFBC94F20}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E3113CA7-2AFC-42D0-9560-ABC6C17E1735}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
