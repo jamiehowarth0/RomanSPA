@@ -1,0 +1,25 @@
+﻿@using RomanSPA.Core;
+@model RomanSPA.Demo.AngularJS.Models.BlogPost
+@{
+    Layout = Context.IsRomanViewRequest() ? String.Empty : "~/Views/Shared/_Layout.cshtml";
+}
+
+@if (Model != null) {
+<article>
+    <header>
+        <h3>@Model.Title</h3>
+        <p>Posted on @Model.PostDate</p>
+    </header>
+    <img src="http://lorempixel.com/640/480/technics/4/" />
+    @Html.Raw(Model.BodyText)
+</article>
+} else if (Context.IsRomanViewRequest()) {
+    <article>
+        <header>
+            <h3 ng-bind="$scope.model.Title"></h3>
+            <p>Posted on {{ $scope.model.PostDate }}</p>
+        </header>
+        <img src="http://lorempixel.com/640/480/technics/4/" />
+        {{ $scope.model.BodyText }}
+    </article>
+}

@@ -1,0 +1,21 @@
+﻿@using RomanSPA.Core;
+@model IEnumerable<RomanSPA.Demo.AngularJS.Models.BlogPost>
+@{
+    Layout = Context.IsRomanViewRequest() ? String.Empty : "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Blog</h2>
+
+@foreach (var post in Model) {
+    <article>
+        <header>
+            <h3>@post.Title</h3>
+            <p>Posted on @post.PostDate</p>
+        </header>
+        <img src="http://lorempixel.com/640/480/technics/4/" />
+        <main>
+            @Html.Raw(post.BodyText)
+            @Html.ActionLink("Read more...", "BlogPost", new RouteValueDictionary() { { "slug", post.Title.ToLower().Replace(" ", "-") } })
+        </main>
+    </article>
+}

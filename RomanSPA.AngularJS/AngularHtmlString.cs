@@ -5,13 +5,11 @@
     using System.Text;
     using System.Web;
     using System.Web.Mvc;
-    using System.Web.Mvc.Html;
     using RomanSPA.Core;
 
     public class AngularHtmlString : IHtmlString {
 
         internal const string ngPrefix = "data-ng-";
-        internal const string ngApp = "app";
         internal const string ngBind = "bind";
         internal const string ngBindHtml = "bind-html";
         internal const string ngBindTemplate = "bind-template";
@@ -117,10 +115,6 @@
         public AngularHtmlString Tag(string tagName) {
             TagName = tagName;
             return this;
-        }
-
-        public AngularHtmlString App(string propToBind) {
-            return WriteParam(WriteAngularAttribute(ngApp), propToBind);
         }
 
         public AngularHtmlString Bind(string propToBind) {

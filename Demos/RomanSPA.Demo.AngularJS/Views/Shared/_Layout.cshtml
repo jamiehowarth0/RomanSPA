@@ -1,0 +1,34 @@
+﻿@using RomanSPA.AngularJS;
+<!DOCTYPE html>
+<html ng-app="RomanSPA">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" type="text/css" href="~/Content/bootstrap.min.css" />
+</head>
+<body>
+    @Html.Action("Navigation", "Home")
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8" data-ng-view>
+                @RenderBody()
+            </div>
+            <div class="col-lg-4">
+                @Html.Action("Sidebar", "Home")
+            </div>
+        </div>
+    </div>
+
+    @Html.Action("Footer", "Home")
+
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.js"></script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular-route.js"></script>
+    <script type="text/javascript" src="~/Scripts/breeze.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/breeze.min.js"></script>
+    <script type="text/javascript" src="~/App/app.js"></script>
+    <script type="text/javascript" src="~/App/controllers/GenericController.js"></script>
+    <script type="text/javascript" src="~/App/controllers/BlogController.js"></script>
+</body>
+</html>

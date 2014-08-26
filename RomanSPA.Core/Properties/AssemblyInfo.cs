@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("RomanSPA.Core")]
-[assembly: AssemblyDescription("The core library of RomanSPA. Only reference this directly if you want to create a project using a library other than AngularJS or KnockoutJS - otherwise reference RomanSPA.AngularJS or RomanSPA.KnockoutJS to get started.")]
+[assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Benjamin Howarth, Code Gecko")]
-[assembly: AssemblyProduct("RomanSPA core framework")]
-[assembly: AssemblyCopyright("Copyright © Benjamin Howarth, Code Gecko 2014. All rights reserved.")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("RomanSPA.Core")]
+[assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

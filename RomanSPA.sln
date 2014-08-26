@@ -9,16 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanSPA.AngularJS", "Roman
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanSPA.Core", "RomanSPA.Core\RomanSPA.Core.csproj", "{18D1A175-5274-43FB-854F-9A396CC52733}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanSPA.Demo.AngularJS", "RomanSPA.Demo\RomanSPA.Demo.AngularJS.csproj", "{81ADA21E-BF2C-4C78-AAE6-F30DFBC94F20}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demos", "Demos", "{E54FE084-91FF-42DB-B875-10E881A2B0DE}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{29BB8AF9-21C7-43A0-B840-E81AFB66BC3D}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{5BA04A34-8E8B-4471-A895-4F08363EB221}"
-	ProjectSection(SolutionItems) = preProject
-		.nuget\NuGet.Config = .nuget\NuGet.Config
-		.nuget\NuGet.exe = .nuget\NuGet.exe
-		.nuget\NuGet.targets = .nuget\NuGet.targets
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanSPA.Demo.AngularJS", "Demos\RomanSPA.Demo.AngularJS\RomanSPA.Demo.AngularJS.csproj", "{81ADA21E-BF2C-4C78-AAE6-F30DFBC94F20}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +40,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{81ADA21E-BF2C-4C78-AAE6-F30DFBC94F20} = {29BB8AF9-21C7-43A0-B840-E81AFB66BC3D}
+		{81ADA21E-BF2C-4C78-AAE6-F30DFBC94F20} = {E54FE084-91FF-42DB-B875-10E881A2B0DE}
 	EndGlobalSection
 EndGlobal

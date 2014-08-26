@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("RomanSPA.AngularJS")]
-[assembly: AssemblyDescription("The AngularJS plugin for RomanSPA, to get you kick-started with the correct routing and base controller setup.")]
+[assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Benjamin Howarth, Code Gecko")]
-[assembly: AssemblyProduct("RomanSPA AngularJS extensions")]
-[assembly: AssemblyCopyright("Copyright © Benjamin Howarth, Code Gecko 2014. All rights reserved. Licenced under MIT.")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("RomanSPA.AngularJS")]
+[assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
